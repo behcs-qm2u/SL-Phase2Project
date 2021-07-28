@@ -197,6 +197,9 @@ public class ProductSteps {
 		int cartItemCount = weInventoryList.size();
 		assertEquals(cartItemCount, totalProductAdded) ;
 		System.out.println("PASS: Item(s) added successfully to the CART.");
+		
+	    // small delay for Screenshoot
+    	Thread.sleep(1000);
 	
 	}
 	    	
