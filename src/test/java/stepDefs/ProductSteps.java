@@ -54,6 +54,9 @@ public class ProductSteps {
 			System.out.println("ERROR: Login Failed. Not landed on PRODUCT page.");
 		}
     
+	    // small delay for Screenshoot
+    	Thread.sleep(1000);
+	    
     }
     
     
